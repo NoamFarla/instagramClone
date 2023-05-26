@@ -59,9 +59,7 @@ class _MyHomePageState extends State<MyHomePage> {
           IconButton(
             icon: const Icon(MdiIcons.heartOutline),
             iconSize: 25,
-            onPressed: () {
-              // Handle search action
-            },
+            onPressed: () {},
           ),
           IconButton(
             icon: const Icon(FontAwesomeIcons.paperPlane),
@@ -86,7 +84,7 @@ class _MyHomePageState extends State<MyHomePage> {
       case 1:
         return const SearchPage();
       case 2:
-        return AddPage(index: _currentIndex); // Pass the current index to AddPage
+        return AddPage(index: _currentIndex); 
       case 3:
         return const ReelsPage();
       case 4:

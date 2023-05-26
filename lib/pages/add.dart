@@ -47,7 +47,7 @@ class AddPage extends StatelessWidget {
                   child: Padding(
                     padding: const EdgeInsets.only(bottom: 4),
                     child: Image.asset('assets/images/story_avatar.jpeg'),
-                  ), // Replace with your image or video widget
+                  ), 
                 ),
               ),
             ),
@@ -62,11 +62,11 @@ class AddPage extends StatelessWidget {
                   mainAxisSpacing: 4.0,
                   crossAxisSpacing: 4.0,
                 ),
-                itemCount: 40, // Replace with your actual gallery item count
+                itemCount: 40, 
                 itemBuilder: (context, index) {
                   return ClipRRect(
                     child: Image.asset(
-                      'assets/images/story_avatar.jpeg', // Replace with your gallery item URL
+                      'assets/images/story_avatar.jpeg', 
                       fit: BoxFit.cover,
                     ),
                   );
