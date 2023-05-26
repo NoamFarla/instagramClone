@@ -1,3 +1,5 @@
+// ignore_for_file: library_private_types_in_public_api
+
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
@@ -88,15 +90,15 @@ class _CustomCardState extends State<CustomCard> {
                     ),
                   ),
                 ),
-                SizedBox(width: 10),
-                Icon(FontAwesomeIcons.comment, color: Colors.white, size: 20),
-                SizedBox(width: 10),
-                Icon(
+                const SizedBox(width: 10),
+                const Icon(FontAwesomeIcons.comment, color: Colors.white, size: 20),
+                const SizedBox(width: 10),
+                const Icon(
                   FontAwesomeIcons.paperPlane,
                   color: Colors.white,
                   size: 20,
                 ),
-                Spacer(),
+                const Spacer(),
                 InkWell(
                   onTap: () {
                     setState(() {

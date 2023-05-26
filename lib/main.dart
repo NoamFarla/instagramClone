@@ -86,7 +86,7 @@ class _MyHomePageState extends State<MyHomePage> {
       case 1:
         return const SearchPage();
       case 2:
-        return const AddPage();
+        return AddPage(index: _currentIndex); // Pass the current index to AddPage
       case 3:
         return const ReelsPage();
       case 4:

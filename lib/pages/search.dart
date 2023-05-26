@@ -1,3 +1,5 @@
+// ignore_for_file: library_private_types_in_public_api, prefer_final_fields
+
 import 'package:flutter/material.dart';
 
 class SearchPage extends StatefulWidget {
@@ -44,13 +46,13 @@ class _SearchPageState extends State<SearchPage> {
             title: Container(
               width: double.infinity,
               decoration: BoxDecoration(
-                color: Color.fromARGB(255, 60, 65, 80),
+                color: const Color.fromARGB(255, 60, 65, 80),
                 borderRadius: BorderRadius.circular(8.0),
               ),
-              child: Row(
+              child: const Row(
                 children: [
                   Padding(
-                    padding: const EdgeInsets.all(8.0),
+                    padding: EdgeInsets.all(8.0),
                     child: Icon(Icons.search, color: Colors.grey),
                   ),
                   Expanded(
@@ -73,7 +75,7 @@ class _SearchPageState extends State<SearchPage> {
               color: Theme.of(context).appBarTheme.backgroundColor,
               child: GridView.count(
                 crossAxisCount: 3,
-                padding: EdgeInsets.only(left: 2.0,right: 2.0,top: 5,bottom: 10),
+                padding: const EdgeInsets.only(left: 2.0,right: 2.0,top: 5,bottom: 10),
                 crossAxisSpacing: 2.0,
                 mainAxisSpacing: 2.0,
                 children: [
