@@ -53,12 +53,12 @@ class _SearchPageState extends State<SearchPage> {
                 children: [
                   Padding(
                     padding: EdgeInsets.all(8.0),
-                    child: Icon(Icons.search, color: Colors.grey),
+                    child: Icon(Icons.search, color: Colors.grey,size: 22,),
                   ),
                   Expanded(
                     child: Text(
                       'Search',
-                      style: TextStyle(color: Colors.grey),
+                      style: TextStyle(color: Colors.grey,fontSize: 18),
                     ),
                   ),
                 ],
