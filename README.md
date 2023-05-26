@@ -20,3 +20,4 @@ Likes and Comments: Users can like posts by tapping the heart icon and leave com
 Follow/Unfollow: Users can follow other users to see their posts in their feed. They can also unfollow users if they no longer wish to see their posts.
 
 ### This was coded by Noam Farla
+### NOTE: This project is solely for training purposes. The intention is not to publish the app anywhere due to copyright concerns.
